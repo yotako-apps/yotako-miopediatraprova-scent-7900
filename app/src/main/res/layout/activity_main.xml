@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <com.yotako.customView.YotakoConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/_image_1_guidelines_top83cefbde_9b5c_403e_ad7b_816cf86091d9"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0" />
+            <android.support.constraint.Guideline
+android:id="@+id/_image_1_guidelines_start83cefbde_9b5c_403e_ad7b_816cf86091d9"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0" />
+            <android.support.constraint.Guideline
+android:id="@+id/_image_1_guidelines_bottom83cefbde_9b5c_403e_ad7b_816cf86091d9"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="1" />
+            <android.support.constraint.Guideline
+android:id="@+id/_image_1_guidelines_end83cefbde_9b5c_403e_ad7b_816cf86091d9"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="1" />
+            <com.yotako.customView.YotakoImageView
+android:id="@+id/_image_1"
+app:customUrl="https://designresources.assets.yotako.io/bck9wpjvx1.png"
+android:alpha="1" 
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:layout_weight="0"  android:adjustViewBounds="true" android:scaleType="fitXY"
+app:layout_constraintStart_toStartOf="@+id/_image_1_guidelines_start83cefbde_9b5c_403e_ad7b_816cf86091d9"
+app:layout_constraintTop_toTopOf="@+id/_image_1_guidelines_top83cefbde_9b5c_403e_ad7b_816cf86091d9"
+app:layout_constraintEnd_toEndOf="@+id/_image_1_guidelines_end83cefbde_9b5c_403e_ad7b_816cf86091d9"
+app:layout_constraintBottom_toBottomOf="@+id/_image_1_guidelines_bottom83cefbde_9b5c_403e_ad7b_816cf86091d9" />
+        </com.yotako.customView.YotakoConstraintLayout>
+    </LinearLayout>
